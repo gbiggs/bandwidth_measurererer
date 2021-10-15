@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>generic_subscriber_hz</name>
+  <name>bandwidth_measurererer</name>
   <version>0.1.0</version>
-  <description>A prototype tool for measuring topic rate efficiently</description>
+  <description>A prototype tool for measuring topic publish rate efficiently</description>
   <maintainer email="gbiggs@killbots.net">Geoffrey Biggs</maintainer>
   <license>Apache License 2.0</license>
 

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(generic_subscriber_hz)
+project(bandwidth_measurererer)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -9,11 +9,11 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 
-add_executable(generic_subscriber_hz src/generic_subscriber_hz.cpp)
-ament_target_dependencies(generic_subscriber_hz rclcpp)
+add_executable(bandwidth_measurererer src/bandwidth_measurererer.cpp)
+ament_target_dependencies(bandwidth_measurererer rclcpp)
 
 install(TARGETS
-  generic_subscriber_hz
+  bandwidth_measurererer
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
